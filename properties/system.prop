@@ -7,6 +7,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Audio
 use.voice.path.for.pcm.voip=true
 
+# Audio Volume Steps
+ro.config.media_vol_steps=20
+
 # Bluetooth
 persist.vendor.bluetooth.modem_nv_support=true
 
