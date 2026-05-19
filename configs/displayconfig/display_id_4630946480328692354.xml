@@ -61,15 +61,15 @@
         <sdrHdrRatioMap>
             <point>
                 <sdrNits>2.0</sdrNits>
-                <hdrRatio>4.5</hdrRatio>
+                <hdrRatio>3.0</hdrRatio>
             </point>
             <point>
                 <sdrNits>100.0</sdrNits>
-                <hdrRatio>4.0</hdrRatio>
+                <hdrRatio>2.7</hdrRatio>
             </point>
             <point>
                 <sdrNits>200.0</sdrNits>
-                <hdrRatio>2.2</hdrRatio>
+                <hdrRatio>2.3</hdrRatio>
             </point>
             <point>
                 <sdrNits>300.0</sdrNits>
