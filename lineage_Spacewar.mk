@@ -45,5 +45,13 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceProduct=Spacewar \
+
+# Set maintainer
+MISTOS_MAINTAINER := iplaynasty
+
+# Enable GMS with mini package
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
+# Enable features
+TARGET_SUPPORTS_QUICK_TAP := true
