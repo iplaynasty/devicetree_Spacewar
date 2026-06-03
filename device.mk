@@ -469,6 +469,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Force release-keys tag
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.build.tags=release-keys \
-    ro.build.type=user \
     ro.build.keys=release-keys
 
