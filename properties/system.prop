@@ -121,3 +121,5 @@ persist.sys.activity_anim_perf_override=true
 ro.build.version.security_patch=2025-06-05      # Match PIF fingerprint date
 ro.vendor.build.security_patch=2025-06-05        # ← often missed!
 ro.build.tags=release-keys                       # NOT test-keys
+
+ro.vendor.build.security_patch=2025-06-05
