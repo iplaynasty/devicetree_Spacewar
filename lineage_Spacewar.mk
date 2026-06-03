@@ -55,3 +55,5 @@ TARGET_USES_MINI_GAPPS := true
 
 # Enable features
 TARGET_SUPPORTS_QUICK_TAP := true
+
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/mist/certs/releasekey
