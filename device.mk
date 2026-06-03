@@ -461,3 +461,14 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libwfdaac_vendor
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DeviceProduct=Spacewar \
+    BuildFingerprint="Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1666412462:user/release-keys"
+
+# Force release-keys tag
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.build.tags=release-keys \
+    ro.build.type=user \
+    ro.build.keys=release-keys
+
