@@ -2,3 +2,6 @@ get_prop(vendor_init, bootanim_system_prop)
 
 # Allow vendor init to set SSR property
 set_prop(vendor_init, vendor_ssr_prop)
+
+# Allow vendor_init to set Qualcomm TWS+ Bluetooth properties
+set_prop(vendor_init, bluetooth_prop)
