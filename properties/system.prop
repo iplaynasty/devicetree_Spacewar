@@ -117,3 +117,9 @@ ro.build.nothing.feature.diff.device.Spacewar=0x8a0042a4041a032c34800L
 persist.sys.default_scaling_gov=true
 persist.sys.activity_anim_perf_override=true
 
+# ── MUST be consistent across ALL partitions ──────────────
+ro.build.version.security_patch=2025-06-05      # Match PIF fingerprint date
+ro.vendor.build.security_patch=2025-06-05        # ← often missed!
+ro.build.tags=release-keys                       # NOT test-keys
+
+ro.vendor.build.security_patch=2025-06-05
