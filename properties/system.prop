@@ -123,3 +123,7 @@ ro.vendor.build.security_patch=2025-06-05        # ← often missed!
 ro.build.tags=release-keys                       # NOT test-keys
 
 ro.vendor.build.security_patch=2025-06-05
+
+ro.product.marketname=Nothing Phone (1)
+ro.infinity.soc=Qualcomm Snapdragon 778G+ 5G
+ro.infinity.camera=50MP + 50MP + 16MP
