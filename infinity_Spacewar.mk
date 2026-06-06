@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 #Evolution X Flags
 TARGET_INCLUDE_ACCORD := true
@@ -45,5 +45,10 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceProduct=Spacewar \
+# Maintainer Name
+INFINITY_MAINTAINER := iplaynasty
+
+# Whether Including Google Apps
+WITH_GAPPS := true
+
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/infinity/certs/releasekey
