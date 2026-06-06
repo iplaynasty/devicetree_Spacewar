@@ -52,3 +52,9 @@ INFINITY_MAINTAINER := iplaynasty
 WITH_GAPPS := true
 
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/infinity/certs/releasekey
+
+# 2. Bluetooth mainline module SEPolicy signed with your keys (CRITICAL)
+PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES := $(dir $(PRODUCT_DEFAULT_DEV_CERTIFICATE))
+
+# 3. Recovery can verify OTA zips signed with your keys
+PRODUCT_EXTRA_RECOVERY_KEYS := vendor/lineage-priv/keys/releasekey
