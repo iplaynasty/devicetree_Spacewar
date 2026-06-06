@@ -1,0 +1,12 @@
+# Allow system domains to read custom ROM version property
+
+get_prop(system_server, custom_version_prop)
+get_prop(platform_app, custom_version_prop)
+get_prop(priv_app, custom_version_prop)
+get_prop(untrusted_app, custom_version_prop)
+get_prop(radio, custom_version_prop)
+get_prop(nfc, custom_version_prop)
+get_prop(network_stack, custom_version_prop)
+get_prop(gmscore_app, custom_version_prop)
+get_prop(permissioncontroller_app, custom_version_prop)
+get_prop(secure_element, custom_version_prop)
