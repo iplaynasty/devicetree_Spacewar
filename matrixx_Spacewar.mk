@@ -63,3 +63,11 @@ $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 
 SURFACE_FLINGER_BOOST := true
+
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/matrixx/certs/releasekey
+
+# 2. Bluetooth mainline module SEPolicy signed with your keys (CRITICAL)
+PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES := $(dir $(PRODUCT_DEFAULT_DEV_CERTIFICATE))
+
+# 3. Recovery can verify OTA zips signed with your keys
+PRODUCT_EXTRA_RECOVERY_KEYS := vendor/matrixx/keys/releasekey
