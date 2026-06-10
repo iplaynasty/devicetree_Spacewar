@@ -47,4 +47,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-nothing
 # Enable GMS with mini package
 WITH_GMS := true
 
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/mist/certs/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/go/certs/releasekey
