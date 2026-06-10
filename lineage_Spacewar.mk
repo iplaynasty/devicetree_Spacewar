@@ -18,7 +18,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 #Evolution X Flags
 TARGET_INCLUDE_ACCORD := true
 TARGET_SUPPORT_BOOT_ANIMATIONS := true
-BUILD_BCR := true
 
 # Enforce Product Packages Existance.
 TARGET_DISABLE_EPPE := true
@@ -45,15 +44,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
-
-# Set maintainer
-MISTOS_MAINTAINER := iplaynasty
-
 # Enable GMS with mini package
 WITH_GMS := true
-TARGET_USES_MINI_GAPPS := true
-
-# Enable features
-TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/mist/certs/releasekey
