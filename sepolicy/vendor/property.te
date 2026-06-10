@@ -1,4 +1,0 @@
-# Allow vendor domains to read custom ROM version property
-
-get_prop(vendor_qtelephony, custom_version_prop)
-get_prop(vendor_qtidataservices_app, custom_version_prop)
