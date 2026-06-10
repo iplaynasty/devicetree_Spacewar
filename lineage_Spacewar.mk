@@ -48,3 +48,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-nothing
 WITH_GMS := true
 
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/go/certs/releasekey
+
+# 2. Bluetooth mainline module SEPolicy signed with your keys (CRITICAL)
+PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES := $(dir $(PRODUCT_DEFAULT_DEV_CERTIFICATE))
+
