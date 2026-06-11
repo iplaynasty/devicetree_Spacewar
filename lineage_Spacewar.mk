@@ -20,6 +20,9 @@ TARGET_INCLUDE_ACCORD := true
 TARGET_SUPPORT_BOOT_ANIMATIONS := true
 BUILD_BCR := true
 
+# ViperFX
+TARGET_INCLUDE_VIPERFX := true
+
 # Enforce Product Packages Existance.
 TARGET_DISABLE_EPPE := true
 
