@@ -23,9 +23,6 @@ BUILD_BCR := true
 # Bypass Charging
 BYPASS_CHARGE_SUPPORTED := true
 
-# ViperFX
-TARGET_INCLUDE_VIPERFX := true
-
 # Enforce Product Packages Existance.
 TARGET_DISABLE_EPPE := true
 
