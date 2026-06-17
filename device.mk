@@ -463,3 +463,17 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libwfdaac_vendor
+
+MISTOS_MAINTAINER := iplaynasty
+
+# Enable GMS with mini package
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
+# Enable UI enhancements
+TARGET_ENABLE_BLUR := true
+
+# Enable features
+TARGET_SUPPORTS_QUICK_TAP := true
+
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
