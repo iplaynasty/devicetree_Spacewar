@@ -10,10 +10,8 @@
     "target_path": "hardware/nothing"
   },
   {
-    "repository"  : "nyxalune/vendor_nothing_Spacewar",
-    "branch"      : "bka",
-    "remote"      : "github-non-los",
-    "target_path" : "vendor/nothing/Spacewar"
+   "repository": "crdroidandroid/proprietary_vendor_nothing_Spacewar",
+    "target_path": "vendor/nothing/Spacewar"
   },
   {
     "repository"  : "swiitch-OFF-Lab/hardware_dolby",
