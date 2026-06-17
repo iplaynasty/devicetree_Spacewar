@@ -477,3 +477,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.build.tags=release-keys \
+    ro.build.keys=release-keys
