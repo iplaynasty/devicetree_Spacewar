@@ -117,3 +117,13 @@ ro.build.nothing.feature.diff.device.Spacewar=0x8a0042a4041a032c34800L
 persist.sys.default_scaling_gov=true
 persist.sys.activity_anim_perf_override=true
 
+ro.mist.display="1080 x 2400, 120 hz" \
+ro.mist.battery="4500 mah" \
+ro.mist.soc="Snapdragon 778G+" \
+ro.mist.camera="50MP Sony IMX766 + 50MP Samsung JN1 ultrawide" \
+ro.mist.front="16MP" \
+ro.mist.platform="SM7325" \
+ro.mist.screen="6.55-inch OLED" \
+ro.mist.device.name="Nothing Phone (1)"
+
+ro.vendor.build.security_patch=2025-06-05
